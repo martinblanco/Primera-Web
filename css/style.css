@@ -1,0 +1,54 @@
+body{
+    background: blue;
+    color:  grey;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+}
+
+p{
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+strong{
+    color: black;
+}
+
+header{
+    background: orange;
+}
+
+nav{
+    background: yellow;
+}
+
+section{
+    background: pink
+}
+
+footer{
+    background: green;
+}
+
+footer p:nth-child(2){
+    color: pink;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px;
+}
+
+h1{
+    color: orange;
+    font-weight: 700;
+    font-family: Timens new roman;
+}
+
+
+#titulo{
+    color: yellow;
+}
+
+.final{
+    color: red;
+}
