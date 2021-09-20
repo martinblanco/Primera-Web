@@ -3,13 +3,18 @@ body{
     color:  grey;
     font-family: 'Oswald', sans-serif;
     font-size: 13px;
+    margin: 0px;
+}
+
+a{
+    color: inherit;
 }
 
 p{
     line-height: 25px;
     letter-spacing: 4px;
     text-transform: capitalize;
-    text-align: center;
+    padding: 20px;
 }
 
 strong{
@@ -25,17 +30,24 @@ nav{
 }
 
 section{
-    background: pink
+    background: pink;
+    min-height: 80vh;
+    width: 80%;
+    margin: 0 auto;
 }
 
 footer{
     background: green;
+    color: red;
+    height: 70px;
 }
 
-footer p:nth-child(2){
-    color: pink;
+footer a{
+    color: black;
     text-transform: uppercase;
     text-shadow: 5px 5px 5px;
+    text-align: left;
+    padding: 30px;
 }
 
 h1{
@@ -51,4 +63,47 @@ h1{
 
 .final{
     color: red;
+}
+
+.logo{
+    width: 120px;
+    margin: 0px;
+}
+
+ul{
+    display: inline-block;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    background: #bf360c;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+
+.gatofoto{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    
+
+}
+
+.card{
+    width: 48%; 
+    margin: 1%;
+    float: left;
+    text-align: center;
 }
